@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0%;
+	padding: 0%;
+}
+
+
+nav {
+	top:0px;
+	position:fixed;
+	height:100px;
+	width:100%;
+	background-image:url("images/whitepattern.png");
+	z-index: 99999;
+}
+
+nav ul {
+	text-align:center;
+	font-size:20px;
+	margin:30px;
+	white-space:nowrap;
+	overflow-x:auto;
+}
+
+nav li {
+	display:inline;
+	color:#393939;
+	font-family:Impact;
+	text-align:center;
+	vertical-align:middle;
+	padding-left:5px;
+	padding-right:5px;
+	letter-spacing:2px;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+nav a:hover {
+	 text-shadow:4px 4px silver;
+}
+
+#about1 {
+	background-color:violet;
+	height:200px;
+	padding:0px;
+	margin-top:100px;
+}
+
+img {
+	display:inline;
+	float:left;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+}
+
+.content {
+	padding-bottom:15px;
+	padding-right:15%;
+	padding-left:15%;
+	overflow-y:auto;
+	max-width:1000px;
+	margin: auto;
+}
+
+
+#games1 {
+	background-color:indigo;
+	padding:0px;
+	margin:0px;
+	height:200px;
+}
+
+#videos1 {
+	background-color:blue;
+	padding:0px;
+	margin:0px;
+	height:200px;
+}
+
+#photos1 {
+	background-color:green;
+	padding:0px;
+	margin:0px;
+	height:200px;
+}
+
+#style1 {
+	background-color:yellow;
+	padding:0px;
+	margin:0px;
+	height:200px;
+}
+
+#skills1 {
+	background-color:orange;
+	padding:0px;
+	margin:0px;
+	height:200px;
+}
+
+#achievements1 {
+	background-color:red;
+	padding:0px;
+	margin:0px;
+	height:200px;
+}
+	
+
+p {
+	padding:15px;
+	padding-top:0px;
+	margin:0px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 20px;
+	text-align:justify;
+}
+
+h2 {
+	font-family: 'Century Gothic', 'CenturyGothicRegular', 'Helvetica', Arial, sans-serif;
+	color: #fff;
+	text-shadow: none;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 46px;
+	line-height: 180px;
+	text-align: center;
+	padding:0px;
+	margin:0px;
+}
+
+h3 {
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 25px;
+	padding-left:15px;
+}
+
+
+.content li {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size:20px;
+	padding-bottom:15px;
+	font-weight:bold
+}
+
+video {
+	display: block;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.anchor {
+   	display: block;
+  	height: 100px; /*same height as header*/
+  	margin-top: -100px; /*same height as header*/
+  	visibility: hidden;
+}
+
+#photogallery {
+	padding-top: 20px;
+}
+
+#photogallery img {
+	width: 200px;
+	height: 200px;
+	padding-bottom:15px;
+	position:relative;
+}
+
+#footer {
+	background-color:#393939;
+	padding:0px;
+	margin:0px;
+	height:200px;
+}
+
+#footer h3 {
+	color:white;
+	font-family: 'Century Gothic', 'CenturyGothicRegular', 'Helvetica', Arial, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align:center;
+	line-height:120px;
+}
+	

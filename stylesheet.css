@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image:url("images/whitepattern.png");
+}
+
+#name {
+	/*width:600px;
+	height: 100px;*/
+	margin: auto;
+	margin-top:20%;
+}
+
+a {
+	text-decoration:none;
+	color:#393939;
+	padding:7%;
+	position:relative;
+	
+}
+
+#e {
+	background: transparent url("images/name/e.png") center top no-repeat;
+	position: relative;
+	background-size: 100%;
+}
+
+#e:hover {
+	background-image: url("images/name/e_hover.png");
+}
+
+#l1 {
+	background: transparent url("images/name/l.png") center top no-repeat;
+	position: relative;
+	background-size: 100%;
+}
+
+#l1:hover {
+	background-image: url("images/name/l_hover.png");
+}
+
+#l2 {
+	background: transparent url("images/name/l.png") center top no-repeat;
+	position: relative;
+	background-size: 100%;
+}
+
+#l2:hover {
+	background-image: url("images/name/l2_hover.png");
+}
+
+#y {
+	background: transparent url("images/name/y.png") center top no-repeat;
+	position: relative;
+	background-size: 100%;
+}
+
+#y:hover {
+	background-image: url("images/name/y_hover.png");
+	
+}
+
+#r {
+	background: transparent url("images/name/r.png") center top no-repeat;
+	position: relative;
+	background-size: 100%;
+}
+
+#r:hover {
+	background-image: url("images/name/r_hover.png");
+}
+
+#i {
+	background: transparent url("images/name/i.png") center top no-repeat;
+	position: relative;
+	background-size: 100%;
+}
+
+#i:hover {
+	background-image: url("images/name/i_hover.png");
+
+}
+
+#a {
+	background: transparent url("images/name/a.png") center top no-repeat;
+	position: relative;
+	background-size: 100%;
+}
+
+#a:hover {
+	background-image: url("images/name/a_hover.png");
+}
+
